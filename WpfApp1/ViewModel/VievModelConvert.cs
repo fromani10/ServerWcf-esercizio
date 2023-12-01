@@ -73,6 +73,7 @@ namespace WpfApp1.ViewModel
 
 
 
+
 		public VievModelConvert()
 		{
 			_moneta = new List<Moneta>()

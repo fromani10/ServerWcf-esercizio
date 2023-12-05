@@ -20,7 +20,7 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <ComboBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Moneta}"  SelectedItem="{Binding Valore}" DisplayMemberPath="Text" SelectedValuePath="Value">
+        <ComboBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Moneta}"   DisplayMemberPath="Text" SelectedValuePath="Value" SelectionChanged="ComboBox_SelectionChanged_1">
 
             
         </ComboBox>

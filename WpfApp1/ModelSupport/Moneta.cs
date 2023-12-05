@@ -8,8 +8,11 @@ namespace WpfApp1.ModelSupport
 {
     internal class Moneta
     {
-        public string text { get; set; }
-        public int value { get; set; }
-        public Moneta() { }
+        public string Text { get; set; }
+        public int Value { get; set; }
+
+        public Moneta
+            (){ } 
+       
     }
 }

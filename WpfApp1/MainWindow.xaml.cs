@@ -35,17 +35,17 @@ namespace WpfApp1
 
         private void ComboBoxItem_DEM(object sender, RoutedEventArgs e)
         {
-            vm.ConveredDEM();
+            
         }
 
         private void omboBoxItem_ITL(object sender, RoutedEventArgs e)
         {
-            vm.ConveredITL();
+           
         }
 
         private void ComboBoxItem_FRF(object sender, RoutedEventArgs e)
         {
-            vm.ConveredFRF();
+          
         }
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -56,6 +56,11 @@ namespace WpfApp1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void ComboBox_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
+        {
+            vm.Converti();
         }
     }
 }
